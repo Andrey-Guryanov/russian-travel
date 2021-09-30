@@ -1,0 +1,21 @@
+.places__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin: 0 0;
+    padding: 0 0 80px 0;
+}
+
+@media screen and (max-width: 700px) {
+    .places__content {
+        padding: 0 0 50px 0;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 100%;
+    }
+}
+
+
+.places__content:last-of-type {
+    padding: 0;
+}

@@ -1,0 +1,7 @@
+.header__links-language {
+    margin: 0 0 6px;
+    padding: 0;
+    display: flex;
+    gap: 18px;
+}
+
